@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E04A46A426626B2200DA59B2 /* Usedtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46A326626B2200DA59B2 /* Usedtime.swift */; };
+		E04A46AD2663F37F00DA59B2 /* PreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46AC2663F37F00DA59B2 /* PreView.swift */; };
+		E04A46B02663F3AC00DA59B2 /* PreUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46AF2663F3AC00DA59B2 /* PreUI.swift */; };
+		E04A46B3266635F300DA59B2 /* DayBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46B2266635F300DA59B2 /* DayBar.swift */; };
+		E04A46B62666766B00DA59B2 /* DayChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46B52666766B00DA59B2 /* DayChart.swift */; };
+		E04A46B92666814700DA59B2 /* WeekBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46B82666814700DA59B2 /* WeekBar.swift */; };
+		E04A46BC26668AB600DA59B2 /* WeekChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46BB26668AB600DA59B2 /* WeekChart.swift */; };
+		E04A46C02667893300DA59B2 /* YearBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46BF2667893300DA59B2 /* YearBar.swift */; };
+		E04A46C42667BC3500DA59B2 /* YearChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46C32667BC3500DA59B2 /* YearChart.swift */; };
+		E04A46C72667BEB600DA59B2 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04A46C62667BEB600DA59B2 /* Chart.swift */; };
+		E098E09C2678A76900402276 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098E09B2678A76900402276 /* SwiftUIView.swift */; };
+		E0D90C55265EA1200088FB16 /* OneMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D90C54265EA1200088FB16 /* OneMonitorApp.swift */; };
+		E0D90C57265EA1200088FB16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D90C56265EA1200088FB16 /* ContentView.swift */; };
+		E0D90C59265EA1220088FB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D90C58265EA1220088FB16 /* Assets.xcassets */; };
+		E0D90C5C265EA1220088FB16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D90C5B265EA1220088FB16 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E04A46A326626B2200DA59B2 /* Usedtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usedtime.swift; sourceTree = "<group>"; };
+		E04A46AC2663F37F00DA59B2 /* PreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreView.swift; sourceTree = "<group>"; };
+		E04A46AF2663F3AC00DA59B2 /* PreUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreUI.swift; sourceTree = "<group>"; };
+		E04A46B2266635F300DA59B2 /* DayBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayBar.swift; sourceTree = "<group>"; };
+		E04A46B52666766B00DA59B2 /* DayChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayChart.swift; sourceTree = "<group>"; };
+		E04A46B82666814700DA59B2 /* WeekBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekBar.swift; sourceTree = "<group>"; };
+		E04A46BB26668AB600DA59B2 /* WeekChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekChart.swift; sourceTree = "<group>"; };
+		E04A46BF2667893300DA59B2 /* YearBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearBar.swift; sourceTree = "<group>"; };
+		E04A46C32667BC3500DA59B2 /* YearChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearChart.swift; sourceTree = "<group>"; };
+		E04A46C62667BEB600DA59B2 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		E098E09B2678A76900402276 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E0D90C51265EA1200088FB16 /* OneMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D90C54265EA1200088FB16 /* OneMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMonitorApp.swift; sourceTree = "<group>"; };
+		E0D90C56265EA1200088FB16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0D90C58265EA1220088FB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0D90C5B265EA1220088FB16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0D90C5D265EA1220088FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D90C5E265EA1220088FB16 /* OneMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneMonitor.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0D90C4E265EA1200088FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E04A46BE266788F500DA59B2 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				E04A46B2266635F300DA59B2 /* DayBar.swift */,
+				E04A46B52666766B00DA59B2 /* DayChart.swift */,
+				E04A46B82666814700DA59B2 /* WeekBar.swift */,
+				E04A46BB26668AB600DA59B2 /* WeekChart.swift */,
+				E04A46BF2667893300DA59B2 /* YearBar.swift */,
+				E04A46C32667BC3500DA59B2 /* YearChart.swift */,
+				E04A46C62667BEB600DA59B2 /* Chart.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		E04A46C92667D1BA00DA59B2 /* PreView */ = {
+			isa = PBXGroup;
+			children = (
+				E04A46AC2663F37F00DA59B2 /* PreView.swift */,
+				E04A46AF2663F3AC00DA59B2 /* PreUI.swift */,
+			);
+			path = PreView;
+			sourceTree = "<group>";
+		};
+		E0D90C48265EA1200088FB16 = {
+			isa = PBXGroup;
+			children = (
+				E0D90C53265EA1200088FB16 /* OneMonitor */,
+				E0D90C52265EA1200088FB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D90C52265EA1200088FB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0D90C51265EA1200088FB16 /* OneMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D90C53265EA1200088FB16 /* OneMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				E0D90C54265EA1200088FB16 /* OneMonitorApp.swift */,
+				E0D90C56265EA1200088FB16 /* ContentView.swift */,
+				E04A46A326626B2200DA59B2 /* Usedtime.swift */,
+				E098E09B2678A76900402276 /* SwiftUIView.swift */,
+				E04A46C92667D1BA00DA59B2 /* PreView */,
+				E04A46BE266788F500DA59B2 /* Chart */,
+				E0D90C58265EA1220088FB16 /* Assets.xcassets */,
+				E0D90C5D265EA1220088FB16 /* Info.plist */,
+				E0D90C5E265EA1220088FB16 /* OneMonitor.entitlements */,
+				E0D90C5A265EA1220088FB16 /* Preview Content */,
+			);
+			path = OneMonitor;
+			sourceTree = "<group>";
+		};
+		E0D90C5A265EA1220088FB16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0D90C5B265EA1220088FB16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0D90C50265EA1200088FB16 /* OneMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D90C61265EA1220088FB16 /* Build configuration list for PBXNativeTarget "OneMonitor" */;
+			buildPhases = (
+				E0D90C4D265EA1200088FB16 /* Sources */,
+				E0D90C4E265EA1200088FB16 /* Frameworks */,
+				E0D90C4F265EA1200088FB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneMonitor;
+			productName = OneMonitor;
+			productReference = E0D90C51265EA1200088FB16 /* OneMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0D90C49265EA1200088FB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E0D90C50265EA1200088FB16 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E0D90C4C265EA1200088FB16 /* Build configuration list for PBXProject "OneMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0D90C48265EA1200088FB16;
+			productRefGroup = E0D90C52265EA1200088FB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0D90C50265EA1200088FB16 /* OneMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0D90C4F265EA1200088FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D90C5C265EA1220088FB16 /* Preview Assets.xcassets in Resources */,
+				E0D90C59265EA1220088FB16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0D90C4D265EA1200088FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E098E09C2678A76900402276 /* SwiftUIView.swift in Sources */,
+				E0D90C57265EA1200088FB16 /* ContentView.swift in Sources */,
+				E04A46BC26668AB600DA59B2 /* WeekChart.swift in Sources */,
+				E04A46B92666814700DA59B2 /* WeekBar.swift in Sources */,
+				E04A46A426626B2200DA59B2 /* Usedtime.swift in Sources */,
+				E04A46C02667893300DA59B2 /* YearBar.swift in Sources */,
+				E04A46AD2663F37F00DA59B2 /* PreView.swift in Sources */,
+				E0D90C55265EA1200088FB16 /* OneMonitorApp.swift in Sources */,
+				E04A46B62666766B00DA59B2 /* DayChart.swift in Sources */,
+				E04A46C72667BEB600DA59B2 /* Chart.swift in Sources */,
+				E04A46B3266635F300DA59B2 /* DayBar.swift in Sources */,
+				E04A46C42667BC3500DA59B2 /* YearChart.swift in Sources */,
+				E04A46B02663F3AC00DA59B2 /* PreUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0D90C5F265EA1220088FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0D90C60265EA1220088FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E0D90C62265EA1220088FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OneMonitor/OneMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OneMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = W89DS2A2FB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OneMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laohusong.OneMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0D90C63265EA1220088FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OneMonitor/OneMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"OneMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = W89DS2A2FB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OneMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laohusong.OneMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0D90C4C265EA1200088FB16 /* Build configuration list for PBXProject "OneMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D90C5F265EA1220088FB16 /* Debug */,
+				E0D90C60265EA1220088FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D90C61265EA1220088FB16 /* Build configuration list for PBXNativeTarget "OneMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D90C62265EA1220088FB16 /* Debug */,
+				E0D90C63265EA1220088FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0D90C49265EA1200088FB16 /* Project object */;
+}
